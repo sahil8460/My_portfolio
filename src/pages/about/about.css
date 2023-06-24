@@ -74,6 +74,16 @@
   color: #03b979;
 }
 
+.work-section {
+  border: 1px solid grey;
+  padding: 20px;
+} 
+
+.work-section > span {
+  color: #02b0a3;
+  font-size: 14px;
+} 
+
 .buttonContainer {
   display: flex;
   align-items: center;
