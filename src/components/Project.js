@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Modal from "react-modal";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import closeModal from "../images/close.svg";
 
 const Project = ({ technologies, title, image, color, id, github, deployed, description }) => {
@@ -11,14 +11,20 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
   });
 
   const variants = {
-    hidden: { x: id % 2 === 0 ? "10vw" : "-10vw", opacity: 0 },
+    hidden: { x: id % 2 === 0 ? "10vw" : "-10vw", opacity: 0.2},
     visible: { x: 0, opacity: 1 },
   };
 
   Modal.setAppElement("#root");
 
   const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    document.getElementById('root').style.overflow = showModal ? 'hidden' : 'auto';
+  }, [showModal])
+
   const handleOpenModal = () => setShowModal(true);
+
   const handleCloseModal = () => setShowModal(false);
 
   return (
@@ -70,9 +76,6 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = github)}>
-          GitHub Repo
-        </button>
         <button className="btn" onClick={() => (window.location.href = deployed)}>
           Live Link
         </button>
