@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import landingImage from "../../images/me.svg";
 import SocialIcons from "../../components/SocialIcons";
 
 const Landing = ({ name, tagline }) => {
@@ -74,7 +73,7 @@ const Landing = ({ name, tagline }) => {
           animate={inView ? { y: 0, opacity: 0.3 } : { y: "10vw", opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
-          src={"https://i.ibb.co/dB0BWcm/Whats-App-Image-2023-03-23-at-21-43-28.jpg"}
+          src={"/sahil.jpeg"}
           alt="sahil_akbari_profile_picture"
         />
       </div>

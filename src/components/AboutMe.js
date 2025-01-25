@@ -62,19 +62,23 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 <div className="row">
                   <div className="col-12 info">
                     <span>Languages:</span>
-                    <p>HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Material UI, AntDesign</p>
+                    <p>HTML, CSS, JavaScript, TypeScript</p>
                   </div>
                   <div className="col-12 info">
-                    <span>Frameworks:</span>
-                    <p>ReactJs, NextJs, NodeJs, Express</p>
+                    <span>Libraries:</span>
+                    <p>ReactJs, NextJs, GraphQL, Redux</p>
+                  </div>
+                  <div className="col-12 info">
+                    <span>UI Libraries:</span>
+                    <p>Tailwind CSS, HeroUI(NextUI), Material UI, AntDesign, Bootstrap</p>
+                  </div>
+                  <div className="col-12 info">
+                    <span>Testing Libraries:</span>
+                    <p>Jest, Cypress, Enzyme</p>
                   </div>
                   <div className="col-12 info">
                     <span>Tools:</span>
-                    <p>Jira, Azure, Postman, Git/Github, VS code, WebStorm</p>
-                  </div>
-                  <div className="col-12 info">
-                    <span>Databases:</span>
-                    <p>SQL (MySQL), NoSQL, MongoDB</p>
+                    <p>Jira, Azure, Postman, Git/Github, Gitlab, VS code, WebStorm</p>
                   </div>
                 </div>
               </div>
@@ -82,10 +86,33 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             <div className="infoContainer">
               <h5>Experience/Work</h5>
               <div className="d-flex flex-wrap">
-              <div className="col-12 col-xxl-6 work-section">
+              <div className="col-12 work-section">
                 <div className="info">
                   <span>Position:</span>
-                  <p>Software Engineer</p>
+                  <p>ReactJS Developer</p>
+                </div>
+                <div className="info">
+                  <span>Work Mode:</span>
+                  <p>Remote</p>
+                </div>
+                <div className="info">
+                  <span>Company Name:</span>
+                  <p>Ouranos Technologies Pvt Ltd</p>
+                </div>
+                <div className="info">
+                  <span>Duration:</span>
+                  <p>August 2023 - Present</p>
+                </div>
+                <span>As a Front-End Developer, I spearheaded the development of dynamic and responsive web applications using React.js and Next.js, ensuring high performance and a seamless user experience across multiple platforms. I closely collaborated with cross-functional teams to define and implement user interface requirements, which significantly improved application design and user engagement. Additionally, I led the integration of APIs, third-party services, and front-end solutions, contributing to the overall system architecture. I focused on optimizing web applications for SEO, speed, and scalability, which resulted in measurable improvements in performance metrics. My approach included applying modern web development practices such as component-based architecture, state management (Redux/Context API), and server-side rendering (SSR) with Next.js. I continuously prioritized writing clean, maintainable code and ensured the best possible user experience by conducting regular testing and gathering feedback. Additionally, I worked closely with design and product teams to iterate on UI/UX designs, further improving the product’s functionality and visual appeal.</span>
+              </div>
+              <div className="col-12 work-section">
+                <div className="info">
+                  <span>Position:</span>
+                  <p>ReactJS Developer</p>
+                </div>
+                <div className="info">
+                  <span>Work Mode:</span>
+                  <p>On-Site</p>
                 </div>
                 <div className="info">
                   <span>Company Name:</span>
@@ -93,14 +120,18 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 </div>
                 <div className="info">
                   <span>Duration:</span>
-                  <p>Feb 2021 - Present</p>
+                  <p>February 2021 - August 2023</p>
                 </div>
-                <span>Work on a tight schedule to meet deadline and to achieve goals. helped to manage Projects and leading a team. Collaborated with people from different countries and cultures.</span>
+                <span>During my time as a Front-End Developer, I gained advanced expertise in React.js, Redux, and GraphQL, focusing on building optimized and scalable applications. I worked extensively with the Next.js framework, implementing Server-Side Rendering (SSR) to optimize performance and enhance user experience. I developed reusable and easy-to-maintain UI components that contributed to the overall scalability of the applications. I also gained experience working with various AWS services, such as CloudFront, AWS Lambda, and S3, to provide scalable cloud storage solutions. Additionally, I implemented unit testing using Jest and Enzyme, ensuring code reliability and performance. I worked with TypeScript and Tailwind CSS to create modern, maintainable front-end solutions. Throughout my time, I participated in daily Scrum meetings, providing updates on feature development, identifying blockers, and offering assistance to other developers when needed. I also focused on improving my communication and leadership skills, contributing to the overall success of the team.</span>
               </div>
-              <div className="col-12 col-xxl-6 work-section">
+              <div className="col-12 work-section">
                 <div className="info">
                   <span>Position:</span>
                   <p>Software Engineering Intern</p>
+                </div>
+                <div className="info">
+                  <span>Work Mode:</span>
+                  <p>On-Site</p>
                 </div>
                 <div className="info">
                   <span>Company Name:</span>
@@ -110,7 +141,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <span>Duration:</span>
                   <p>September 2020 - January 2021</p>
                 </div>
-                <span>The project involved upgrading the website with the team. The client's specifications were followed when managing and delivering site/software</span>
+                <span>In my early career as a Front-End Developer, I gained a strong foundational understanding of HTML, CSS, and JavaScript. I worked on live projects, which helped me enhance my problem-solving and logic-building skills. I created demo applications and gained valuable experience in integrating Bootstrap and using CDN for responsive styling. I further honed my skills by working with React.js, learning both class-based and function-based components. During this time, I also gained experience with version control using Git, which helped me manage code more efficiently and collaborate with other developers.</span>
               </div>
               </div>
               
