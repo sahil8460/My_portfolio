@@ -9,6 +9,15 @@
     "id": "1"
   },
   {
+    "title": "Real Estate UI Template",
+    "image": "./projectImages/template.png",
+    "description": "Create a real estate template using pure HTML and CSS.",
+    "technologies": "HTML5 | CSS3 | UI",
+    "deployed": "https://quiet-reindeer.static.domains/",
+    "bgcolor": "#81e1dc87",
+    "id": "7"
+  },
+  {
     "title": "Southwest Gas",
     "image": "./projectImages/southwest_gas.png",
     "technologies": "jQuery | HTML | CSS",
@@ -52,6 +61,6 @@
     "technologies": "React | CSS | MaterialUI",
     "deployed": "https://dev2451.d3m0b43xh05nb9.amplifyapp.com/",
     "bgcolor": "rgb(225 167 69)",
-    "id": "5"
+    "id": "6"
   }
 ]

@@ -76,9 +76,9 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = deployed)}>
+        <a href={deployed} style={{ textDecoration: 'none', textAlign: 'center', padding: '8px' }} target="_blank" className="btn">
           Live Link
-        </button>
+        </a>
       </Modal>
     </motion.div>
   );
