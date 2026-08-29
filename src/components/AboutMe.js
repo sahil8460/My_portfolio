@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/aboutme-sahil.jpeg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import resume from "../pages/about/Sahil_Resume_.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
-  const skills = []
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -61,24 +60,32 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="contentDescription">
                 <div className="row">
                   <div className="col-12 info">
-                    <span>Languages:</span>
-                    <p>HTML, CSS, JavaScript, TypeScript</p>
+                    <span>Frontend:</span>
+                    <p>ReactJS, NextJS (App Router), JavaScript, TypeScript, GraphQL</p>
                   </div>
                   <div className="col-12 info">
-                    <span>Libraries:</span>
-                    <p>ReactJs, NextJs, GraphQL, Redux</p>
+                    <span>State &amp; Data:</span>
+                    <p>Redux Toolkit, React Query, Zustand, Axios</p>
                   </div>
                   <div className="col-12 info">
-                    <span>UI Libraries:</span>
-                    <p>Tailwind CSS, HeroUI(NextUI), Material UI, AntDesign, Bootstrap</p>
+                    <span>Styling:</span>
+                    <p>Tailwind CSS, Bootstrap, Material UI, Ant Design, shadcn/ui, SCSS</p>
                   </div>
                   <div className="col-12 info">
-                    <span>Testing Libraries:</span>
-                    <p>Jest, Cypress, Enzyme</p>
+                    <span>Testing:</span>
+                    <p>Jest, Cypress, Component / API-function / E2E Testing</p>
                   </div>
                   <div className="col-12 info">
-                    <span>Tools:</span>
-                    <p>Jira, Azure, Postman, Git/Github, Gitlab, VS code, WebStorm</p>
+                    <span>Backend (Supporting):</span>
+                    <p>Node.js, Express.js, REST API design</p>
+                  </div>
+                  <div className="col-12 info">
+                    <span>Integrations:</span>
+                    <p>Twilio, Mailchimp, ManyChat, Zoom, Mixpanel, Google Maps API, Razorpay, Stripe, PayPal</p>
+                  </div>
+                  <div className="col-12 info">
+                    <span>DevOps &amp; AI:</span>
+                    <p>GitHub, CI/CD, Vercel, Railway, Heroku, Git Worktrees, Claude Code</p>
                   </div>
                 </div>
               </div>
@@ -89,7 +96,26 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="col-12 work-section">
                 <div className="info">
                   <span>Position:</span>
-                  <p>ReactJS Developer</p>
+                  <p>Frontend Engineer</p>
+                </div>
+                <div className="info">
+                  <span>Work Mode:</span>
+                  <p>Remote</p>
+                </div>
+                <div className="info">
+                  <span>Company Name:</span>
+                  <p>MM NOVA TECH LTD (Canada)</p>
+                </div>
+                <div className="info">
+                  <span>Duration:</span>
+                  <p>March 2024 - Present</p>
+                </div>
+                <span>I work across two production platforms. On NovaCRM, an AI voice-calling and marketing-automation product, I contributed to the V1 to V2 modernization spanning ~80–90 pages and 17 modules with a 3-person frontend team: migrating JavaScript to TypeScript with centralized, type-safe API definitions, moving CSS/Bootstrap toward Tailwind CSS, shadcn/ui, and SCSS, introducing React Query caching with query keys, stale-time strategies, and direct cache updates, and implementing JWT authentication, protected routes, and automatic logout on 401. I built real-time WebSocket progress for batch file uploads and tag updates, complex multi-step forms with React Hook Form, and ~40% automated coverage with Jest and Cypress, plus AI-assisted workflows using Claude Code, CLAUDE.md, custom commands, and Git worktrees. I also architected the frontend from scratch for a multi-theme Real Estate IDX platform serving ~50 client websites across 11 themes and ~40 pages: JWT auth with Zustand and Axios interceptors, URL-driven property search and filters that persist across refreshes, map-based MLS search with Google Maps, saved searches and email alerts, React Query caching, reusable white-label component patterns, and SSR with dynamic API-driven metadata and code splitting for SEO.</span>
+              </div>
+              <div className="col-12 work-section">
+                <div className="info">
+                  <span>Position:</span>
+                  <p>Frontend Engineer</p>
                 </div>
                 <div className="info">
                   <span>Work Mode:</span>
@@ -101,9 +127,9 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 </div>
                 <div className="info">
                   <span>Duration:</span>
-                  <p>August 2023 - Present</p>
+                  <p>August 2023 - March 2024</p>
                 </div>
-                <span>As a Front-End Developer, I spearheaded the development of dynamic and responsive web applications using React.js and Next.js, ensuring high performance and a seamless user experience across multiple platforms. I closely collaborated with cross-functional teams to define and implement user interface requirements, which significantly improved application design and user engagement. Additionally, I led the integration of APIs, third-party services, and front-end solutions, contributing to the overall system architecture. I focused on optimizing web applications for SEO, speed, and scalability, which resulted in measurable improvements in performance metrics. My approach included applying modern web development practices such as component-based architecture, state management (Redux/Context API), and server-side rendering (SSR) with Next.js. I continuously prioritized writing clean, maintainable code and ensured the best possible user experience by conducting regular testing and gathering feedback. Additionally, I worked closely with design and product teams to iterate on UI/UX designs, further improving the product’s functionality and visual appeal.</span>
+                <span>I developed production CRM features and reusable UI components using React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, and Zustand. I integrated REST APIs with robust loading and error handling and reusable frontend data patterns, implemented responsive and accessible interfaces, and collaborated closely with design, backend, and QA teams. I also wrote Jest and Cypress tests covering components, API functions, and end-to-end flows.</span>
               </div>
               <div className="col-12 work-section">
                 <div className="info">
@@ -116,35 +142,39 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 </div>
                 <div className="info">
                   <span>Company Name:</span>
-                  <p>Bvm Infotech</p>
+                  <p>BVM Infotech</p>
                 </div>
                 <div className="info">
                   <span>Duration:</span>
-                  <p>February 2021 - August 2023</p>
+                  <p>February 2022 - August 2023</p>
                 </div>
-                <span>During my time as a Front-End Developer, I gained advanced expertise in React.js, Redux, and GraphQL, focusing on building optimized and scalable applications. I worked extensively with the Next.js framework, implementing Server-Side Rendering (SSR) to optimize performance and enhance user experience. I developed reusable and easy-to-maintain UI components that contributed to the overall scalability of the applications. I also gained experience working with various AWS services, such as CloudFront, AWS Lambda, and S3, to provide scalable cloud storage solutions. Additionally, I implemented unit testing using Jest and Enzyme, ensuring code reliability and performance. I worked with TypeScript and Tailwind CSS to create modern, maintainable front-end solutions. Throughout my time, I participated in daily Scrum meetings, providing updates on feature development, identifying blockers, and offering assistance to other developers when needed. I also focused on improving my communication and leadership skills, contributing to the overall success of the team.</span>
-              </div>
-              <div className="col-12 work-section">
-                <div className="info">
-                  <span>Position:</span>
-                  <p>Software Engineering Intern</p>
-                </div>
-                <div className="info">
-                  <span>Work Mode:</span>
-                  <p>On-Site</p>
-                </div>
-                <div className="info">
-                  <span>Company Name:</span>
-                  <p>Opsence Technologies</p>
-                </div>
-                <div className="info">
-                  <span>Duration:</span>
-                  <p>September 2020 - January 2021</p>
-                </div>
-                <span>In my early career as a Front-End Developer, I gained a strong foundational understanding of HTML, CSS, and JavaScript. I worked on live projects, which helped me enhance my problem-solving and logic-building skills. I created demo applications and gained valuable experience in integrating Bootstrap and using CDN for responsive styling. I further honed my skills by working with React.js, learning both class-based and function-based components. During this time, I also gained experience with version control using Git, which helped me manage code more efficiently and collaborate with other developers.</span>
+                <span>I translated UI/UX designs into responsive production interfaces using ReactJS and NextJS, integrated REST APIs, managed frontend state, and built reusable components with a focus on responsiveness and consistency. I worked with Heroku deployment environments and production logs to investigate and debug application issues, and maintained code quality through Git workflows while contributing to technical implementation discussions.</span>
               </div>
               </div>
-              
+
+            </div>
+            <div className="infoContainer">
+              <h5>Education</h5>
+              <div className="d-flex flex-wrap">
+                <div className="col-12 work-section">
+                  <div className="info">
+                    <span>Degree:</span>
+                    <p>Bachelor of Engineering in Computer Engineering</p>
+                  </div>
+                  <div className="info">
+                    <span>University:</span>
+                    <p>Gujarat Technological University</p>
+                  </div>
+                  <div className="info">
+                    <span>Year:</span>
+                    <p>2023</p>
+                  </div>
+                  <div className="info">
+                    <span>CGPA:</span>
+                    <p>8.76</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="infoContainer">
               <div className="row">

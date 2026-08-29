@@ -5,11 +5,11 @@ function App() {
   const personalDetails = {
     name: "Sahil Akbari",
     location: "Surat, Gujarat, India",
-    tagline: "I'm a Frontend Developer",
+    tagline: "I'm a Frontend Engineer",
     email: "sahilakbari8460@gmail.com",
     availability: "Open to work",
     brand:
-      "Hello! I’m Sahil, and it's a pleasure to meet you. As a passionate Software Engineer, I specialize in crafting and developing user interfaces for web applications using React. With years of experience, I've honed my ability to write clean, reusable, and maintainable code while working closely with designers and cross-functional teams. I am driven by delivering not just results, but also satisfaction by troubleshooting, debugging, and optimizing application performance to provide the best user experience possible.",
+      "Hello! I’m Sahil — a pleasure to meet you. I'm a Frontend Engineer with 4+ years building scalable, production-grade web applications with React, Next.js, and TypeScript. My work spans frontend architecture and application modernization: JavaScript-to-TypeScript migrations, JWT authentication and protected routes, React Query data caching, real-time WebSocket interfaces, automated testing with Jest and Cypress, performance optimization, and SEO. I write clean, reusable, maintainable code, collaborate closely with designers and cross-functional teams, and lean on AI-assisted workflows to ship faster. What drives me isn't just delivering results — it's delivering satisfaction: troubleshooting, debugging, and tuning performance until the user experience feels effortless.",
   };
 
   return (

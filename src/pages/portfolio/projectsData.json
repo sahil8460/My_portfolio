@@ -1,30 +1,21 @@
 [
   {
-    "title": "Webbwe",
-    "image": "./projectImages/webbwe.png",
-    "description": "I was responsible for the routing functionality and image listing funcitonality of Webbwe, an application that helps to customer who want to buy products online, We make sure that product is authenticate.",
-    "technologies": "React | MaterialUI | NodeJS | Serverless | AWS",
-    "deployed": "http://webbwe.com/",
-    "bgcolor": "#f37737",
-    "id": "1"
+    "title": "NovaCRM",
+    "image": "./projectImages/nova.jpeg",
+    "description": "NovaCRM is an AI voice-calling and marketing-automation platform. I contributed to the V1 to V2 modernization across ~80–90 pages and 17 modules with a 3-person frontend team: JavaScript to TypeScript migration with centralized type-safe API definitions, Bootstrap to Tailwind CSS / shadcn/ui / SCSS, React Query caching with query keys and direct cache updates, JWT auth with protected routes and 401 auto-logout, real-time WebSocket upload/tag progress, multi-step React Hook Form flows, and ~40% Jest/Cypress coverage.",
+    "technologies": "Next.js | TypeScript | React Query | Tailwind CSS | shadcn/ui",
+    "deployed": "https://app.novacrm.ca/login",
+    "bgcolor": "#2563eb",
+    "id": "8"
   },
   {
-    "title": "Real Estate UI Template",
-    "image": "./projectImages/template.png",
-    "description": "Create a real estate template using pure HTML and CSS.",
-    "technologies": "HTML5 | CSS3 | UI",
-    "deployed": "https://quiet-reindeer.static.domains/",
-    "bgcolor": "#81e1dc87",
-    "id": "7"
-  },
-  {
-    "title": "Southwest Gas",
-    "image": "./projectImages/southwest_gas.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": "Here I was worked in login/signup module and dynamic forms",
-    "deployed": "https://myaccount.swgas.com/",
-    "bgcolor": "#29cbe0",
-    "id": "2"
+    "title": "Real Estate IDX Platform",
+    "image": "./projectImages/logo.svg",
+    "description": "A multi-theme real estate IDX platform serving ~50 white-label client websites across 11 themes and ~40 pages. I architected the frontend from scratch: JWT auth with Zustand and Axios interceptors, URL-driven property search and filters that persist across refreshes, map-based MLS search with Google Maps, saved searches and email alerts, React Query caching, reusable multi-theme component patterns, and SSR with dynamic API-driven metadata and code splitting for SEO.",
+    "technologies": "Next.js | TypeScript | Zustand | React Query | Google Maps API",
+    "deployed": "https://properties.kajillionrealty.com/",
+    "bgcolor": "#0f9d8f",
+    "id": "9"
   },
   {
     "title": "Language Platform",
@@ -34,33 +25,5 @@
     "deployed": "https://languageplatformws2022-290480-react.b290480.dev.eastus.az.svc.builder.cafe/",
     "bgcolor": "#6c4bf4",
     "id": "3"
-  },
-  {
-    "title": "Pizza App",
-    "image": "./projectImages/pizza.png",
-    "technologies": "JS | HTML | CSS",
-    "description": "I designed my first personal e-commerce project. Here I designed pages with HTML and CSS",
-    "deployed": "https://master--pizza-app-ui.netlify.app/",
-    "bgcolor": "#f85781",
-    "id": "4"
-  },
-
-  {
-    "title": "Politiq",
-    "image": "./projectImages/politiq.png",
-    "description": "It is baically voting and pole application. Here I integrate login/signup module and post section where user can show simple post, pole posts, etc",
-    "technologies": "React | Framer | CSS | Bootstrap | Node",
-    "deployed": "https://www.politiq.net/",
-    "bgcolor": "#ffcc33",
-    "id": "5"
-  },
-  {
-    "title": "Jewelry",
-    "image": "./projectImages/jewelry.png",
-    "description": "It is jewelry website. Built user friendly website with responsive",
-    "technologies": "React | CSS | MaterialUI",
-    "deployed": "https://dev2451.d3m0b43xh05nb9.amplifyapp.com/",
-    "bgcolor": "rgb(225 167 69)",
-    "id": "6"
   }
 ]

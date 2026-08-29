@@ -43,7 +43,10 @@
 
 .tech {
   font-size: 12px;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: center;
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .viewWork {
@@ -92,6 +95,27 @@
 }
 
 /* --- MEDIA QUEIRES --- */
+
+@media (max-width: 749px) {
+  .projectCard {
+    padding: var(--sm-spacing) !important;
+    text-align: center;
+  }
+
+  .projectCard .textWrap,
+  .projectCard .imageContainer {
+    width: 100% !important;
+    max-width: 100%;
+    flex: 0 0 auto;
+    margin: 0.75rem 0 !important;
+  }
+
+  .imageContainer img {
+    height: 9em;
+    margin-top: 0;
+    max-width: 100%;
+  }
+}
 
 @media (min-width: 750px) {
   .projectCard {
